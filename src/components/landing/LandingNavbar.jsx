@@ -1,5 +1,6 @@
 import Topbar from "@/components/layout/Topbar"
 import Logo from "@/components/layout/Logo";
+import { signIn } from "next-auth/react";
 
 export default function LandingNavbar({session}) {
     return (
